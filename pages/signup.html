@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../font-awsome/css/all.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+    
+    <header class="overflow-auto vh-100">
+        <div class="container ">
+            <div class="form-container w-75 m-auto text-center px-5 my-2">
+
+                <!-- form title -->
+                <h1 class="text-info fw-normal py-3">Smart Sign Up System</h1>
+                
+                <!-- first input field to get user name -->
+                <input type="text" id="userName" name="userName"
+                class="form-control w-100 my-2  py-2 border border-1 border-white text-white"
+                placeholder="Enter Your Name" required />
+
+                <!-- paragraph to display messages for name wrong entry  -->
+                <p id="nameMessage" class="text-white"></p>
+
+                <!-- second input field to get user email -->
+                <input type="email" id="email" name="userEmail" 
+                    class="form-control w-100 my-2  py-2 border border-1 border-white text-white"
+                    placeholder="Enter Your Email" required />
+
+                <!-- paragraph to display messages for email wrong entry  -->
+                <p id="emailMessage" class="text-white"></p>
+                
+                <!--  input field to get user password -->
+                <input type="password" id="password" name="userPassword" 
+                    class="form-control w-100 my-2 py-2 border border-1 border-white text-white"
+                    placeholder="Enter Your Password" required />
+
+                <!-- input to confirm user password -->
+                <input type="password" id="confirmPassword" name="userPassword" 
+                    class="form-control w-100 my-2 py-2 border border-1 border-white text-white"
+                    placeholder="Confirm Your Password" required />
+
+                <!-- paragraph to display messages for password wrong entry  -->
+                <p id="passwordMessage"  class="text-white"></p>
+
+                <!-- submit button -->
+                <button id="signup" class="btn btn-outline-info  w-100 py-2">Sign Up</button>
+                
+                <!-- link to a register form for new users -->
+                <p class="text-white fs-6 py-3">
+                    Already have an account? 
+                    <a href="../login.html" id="logInLink" class="text-white text-decoration-none">Log In</a>
+                </p>
+
+            </div>
+        </div>
+
+    </header>
+    
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/signup.js"></script>
+</body>
+</html>

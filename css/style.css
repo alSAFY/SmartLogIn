@@ -1,0 +1,30 @@
+input::placeholder{
+    color: #a9a9a9 !important;
+}
+
+.form-container{
+    box-shadow: 3px 3px 30px 5px rgba(0,0 ,0, .3), -3px -3px 30px 5px rgba(0,0 ,0 ,.3) !important;
+}
+header,
+.form-container,
+input
+{
+    background-color: #24353F !important;
+}
+.form-container a:hover{
+    text-decoration: underline !important;
+}
+.valid,.not-valid{
+    background-position: 98% center ;
+    background-size: 3% ;
+    background-repeat: no-repeat;
+}
+.valid{
+    background-image: url('../images/ok.jpg');
+}
+.not-valid{
+    background-image: url('../images/no.jpg');
+}
+.bg-red{
+    background-color: rgba(255, 0, 0, 0.3);
+}
